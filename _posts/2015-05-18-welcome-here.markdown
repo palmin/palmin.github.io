@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome here"
+title:  "A Git client for iOS"
 date:   2015-05-18 10:24:53
 categories: git
 ---
