@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -26,8 +26,6 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -50,3 +48,20 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+a:link, a:visited, a:hover, a:active {
+            color: #222;
+            border-bottom: 1px solid rgba(34,34,34,0.2);
+            text-decoration: none;
+        }
+        a:hover {
+            border-bottom: 1px solid rgba(34,34,34, 1.0);
+        }
+
+        a img {
+            border:none;
+        }
+
+a.img:link, a.img:visited, a.img:hover, a.img:active {
+          border-bottom: 0px ;
+ }
