@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Post from device
 ---
 
