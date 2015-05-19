@@ -1,10 +1,11 @@
 # Site settings
 title: Working Copy blog
+owner: Anders Borum
 email: anders@workingcopyapp.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This blog describes how Working Copy can be used for blogging and
+  software development. It specifically describes how Working Copy is used to 
+  blog about and develop Working Copy, a full-featured Git client for iOS.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http:/palmin.github.io/" # the base hostname & protocol for your site
 twitter_username: palmin
