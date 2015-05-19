@@ -50,18 +50,5 @@ $on-laptop:        800px;
 ;
 
 a:link, a:visited, a:hover, a:active {
-            color: #222;
-            border-bottom: 1px solid rgba(34,34,34,0.2);
-            text-decoration: none;
+            color: $text-color;
         }
-        a:hover {
-            border-bottom: 1px solid rgba(34,34,34, 1.0);
-        }
-
-        a img {
-            border:none;
-        }
-
-a.img:link, a.img:visited, a.img:hover, a.img:active {
-          border-bottom: 0px ;
- }
