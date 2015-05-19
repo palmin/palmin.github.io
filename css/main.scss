@@ -51,4 +51,16 @@ $on-laptop:        800px;
 
 a:link, a:visited, a:hover, a:active {
             color: $text-color;
-        }
+}
+
+img.avatar {
+  height: 45px;
+  width: auto;
+  float:left;
+  margin-right: 5px;
+  display: block;
+ 
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
