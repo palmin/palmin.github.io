@@ -1,23 +1,17 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html class="no-js" lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Anders Borum ApS</title>
+    <meta name="author" content="Anders Borum">
+    <script>
+        function rev(s) { return s.length <= 1 ? s : rev(s.substr(1)) + s.substr(0,1); }
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+         var email = document.getElementById("email");
+         if(email) email.href = "mailto:" + rev("ved.murob@sredna");
+    </script>
+</head>
+<body>
+ <h1>Anders Borum ApS</h1>
+</body>
+</html>

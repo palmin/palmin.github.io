@@ -1,9 +1,0 @@
----
-layout: post
-title: First post from iOS
----
-
-We start out with the contents of the clipboard. 
-Write anything you like and save in Working Copy using the Share sheet.
-
-This blog post was created to make a small [video](https://youtu.be/9Tv4JGJKfOM).
